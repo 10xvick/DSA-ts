@@ -15,4 +15,8 @@ function comb(str, carry, out) {
   return out;
 }
 
-console.log(comb('abcd', '', []));
+export const combination = () => {
+  const input = 'abcd';
+  console.log('all combinations of ' + input);
+  console.log(comb(input, '', []));
+};
